@@ -15,6 +15,8 @@ namespace FleekStudio
         void Start()
         {
             eyebrowTextures = Resources.LoadAll(eyebrowTextureFolder, typeof(Texture2D));
+
+            NextEyebrow();
         }
 
         public void NextEyebrow()
