@@ -894,9 +894,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_CaptureDeviceOrientation: 0
   m_VideoParameters:
-    m_UseNativeCapture: 1
-    m_VideoCaptureIndex: 1
-    m_VideoCaptureMode: 3
+    m_UseNativeCapture: 0
+    m_VideoCaptureIndex: 0
+    m_VideoCaptureMode: 2
     m_UseFrontal: 1
     m_MirrorVideo: 1
     m_VideoPlaneFittingMode: 1
@@ -923,6 +923,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
   m_RenderPostProcessing: 0
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
